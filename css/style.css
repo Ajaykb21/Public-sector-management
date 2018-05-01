@@ -1,0 +1,406 @@
+/*==========================================
+
+   FONT FAMILY = ROBOTA CONDENSED
+   GREENISH BLUE = #34C6D3 (BUTTONS,ICONS,LINKS,LINES AND BACLGROUNDS)
+   STEEL GREY = #41464B (HEADINGS)
+   BLUE BAYOUX = #64707B (PARAGRAPHS)
+   WHITE = #FFF
+   BLACK = #000
+
+
+============================================*/
+
+/*==========================================
+  general css styling
+
+============================================*/
+
+h3{
+    text-transform: uppercase;
+    color:#41464b;
+}
+
+html,body{
+    height:100%;
+}
+
+p{
+    color: #64707b;
+    font-size:15px;
+    font-weight:300;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*==========================================
+ home section styling
+
+============================================*/
+
+#home{
+    height:100%;
+}
+
+#home-cover{
+    background-image: url("../img/bg-demo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    height:100%;
+}
+
+#home-content-box{
+    width:100%;
+    height:100%;
+    display: table;
+}
+
+#home-content-box-inner{
+    display:table-cell;
+    vertical-align: middle;
+    
+}
+
+#home-heading h3{
+    color:#fff;
+    font-weight:700;
+    font-size:50px;
+    margin:20px 0 20px 0;
+}
+
+/*==========================================
+   animation(home)
+
+============================================*/
+#home-cover{
+    animation-delay: .5s;
+    animation-duration: 1s;
+
+}
+
+#home-heading{
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+
+}
+
+#home-btn{
+    animation-delay: 2s;
+    animation-duration: 2.5s;
+
+}
+
+
+/*==========================================
+     parallax(generic)
+
+============================================*/
+.bg-parallax{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+/*==========================================
+     buttons(generic)
+
+============================================*/
+.btn-general{
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    padding:12px 24px 12px 24px;
+    font-size:20px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+.btn-white{
+    color:#fff;
+    border-color:#fff;
+}
+
+.btn-white:hover,.btn-white:focus{
+    background-color:white;
+    color:#41464b;
+}
+
+.btn-blue{
+    color:#34c6d3;
+    border-color:#34c6d3;
+}
+
+.btn-blue:hover,.btn-blue:focus{
+    background-color:#34c6d3;
+    color:#fff;
+}
+
+/*==========================================
+     content(generic)
+
+============================================*/
+.content-box{
+    padding:60px 0 60px 0;
+}
+
+.content-header h3{
+    font-size:30px;
+    font-weight:700;
+    text-align: center;
+    margin:0 0 30px 0;
+}
+
+.content-header-underline{
+    width:30px;
+    height:3px;
+    background-color:#34c6d3;
+    margin:0 auto 30px auto;
+}
+
+/*==========================================
+     categories
+
+============================================*/
+.content-item{
+    padding:20px 0 20px 0;
+    margin-bottom:30px;
+    outline: 3px solid #34c6d3;
+    cursor:pointer;
+}
+
+.content-item-icon{
+    color:#34c6d3;
+    float:left;
+    padding:15px;
+    margin-right:25px;
+    width:75px;
+    height:75px;
+    text-align:center;
+}
+
+/*.content-item:hover .content-item-icon i{
+    color:#0000ff;
+    background-color:#41464b;
+}
+*/
+.content-item-title{
+    font-size:30px;
+    font-weight:500;
+    margin:0 0 20px 0;
+}
+
+.content-item-desc p{
+    margin:0;
+    padding-left:80px;
+   
+}
+
+/*==========================================
+     about
+
+============================================*/
+
+#about-bg-diagonal{
+    width:60%;
+    height:700px;
+    float:right;
+    background-image:url(../img/bird.jpg);
+    background-repeat: no-repeat;
+    border-top:700px solid transparent;
+    border-left:200px solid white;
+}
+
+#about-content-box{
+    float:left;
+    height:700px;
+}
+
+#about-content-box-outer{
+    width:100%;
+    height:100%;
+    display:table;
+}
+
+#about-content-box-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-header h3{
+    text-align: left;
+}
+
+#about .content-header-underline{
+    margin:0 0 30px 0;
+}
+
+#about-desc p{
+    margin-bottom:30px;
+}
+
+/*==========================================
+     about
+
+============================================*/
+.row.no-gutters[class*=col-]{
+    padding-left:0;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+}
+
+.img-wrapper{
+    overflow: hidden;
+}
+
+.img-wrapper{
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover{
+    transform:scale(1.5);
+}
+
+/*==========================================
+     navigation
+
+============================================*/
+.navbar{
+    padding:20px 0;
+}
+
+.mycity-top-nav{
+    background:rgba(0,0,0,0.5);
+    padding:8px 0;
+}
+#mycity-nav-wrapper{
+    padding:0 60px;
+}
+
+.navbar-brand{
+    color:#fff;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 700;
+
+}
+
+.navbar-nav>li>a{
+    color:#fff;
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight:500;
+    letter-spacing: 2px;
+}
+
+/* .navbar-nav>li>a:hover,.navbar-nav>li>a:focus{
+    color:#34c6d3;
+
+} */
+
+#menu-items a:hover{
+    color:#34c6d3;
+}
+
+.navbar-toggle{
+    background-color:rgba(0,0,0,0.5);
+    border:1px solid white;
+    border-radius:0;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+.navbar-collapse{
+    max-height: none;
+}
+
+
+/*==========================================
+     contact section
+
+============================================*/
+.contact-header h3{
+    color:white;
+    font-size:15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: bold;
+    padding:10px;
+}
+
+.form-control{
+    margin:20px;
+    border-radius: 0;
+    background-color:grey;
+    border-color:white
+
+}
+
+.btn-sm{
+    
+    width:80px;
+}
+
+.btn-sm:hover{
+    color:cyan;
+}
+
+/*==========================================
+     footer section
+
+============================================*/
+
+#footer-bottom{
+    background-color:grey;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-menu{
+    float:left;
+    font-size:16px;
+    color:#fff;
+    font-weight: 300;
+}
+
+#footer-menu ul{
+    padding-left:0;
+    margin:auto;
+    
+}
+
+#footer-menu ul li{
+    display: inline-block;
+
+}
+
+#footer-menu a{
+    color:#fff;
+    font-size:16px;
+    font-weight:300;
+    margin:0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover{
+    color:#34c6d3;
+}
+
+/*.mycity-top-nav ul.navbar-nav > li.active > a{
+    color:#34c6d3;
+}*/
+
+.navbar .nav > li > a:hover, .navbar .nav > li > a:hover{
+    color:#ffff00;
+    text-decoration: none;
+    background-color: transparent;
+}
+

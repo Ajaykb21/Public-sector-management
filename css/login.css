@@ -1,0 +1,51 @@
+html,body{
+    background-image: url("../img/darkness.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height:100%;
+}
+
+/* body{
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+.form-group{
+     width:25%;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+
+/* form{
+    display: table;
+    margin:auto;
+} */
+
+#form-wrapper{
+    margin:auto;
+    padding:auto;
+}
+
+/* form{
+    margin:auto auto;
+} */ 
+
+.btn{
+    border-radius:0;
+    width:200px;
+    padding:15px;
+}
+
+#form-header{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* #form-field{
+    margin:auto;
+    outline:3px solid white;
+} */

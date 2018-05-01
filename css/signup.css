@@ -1,0 +1,25 @@
+.form-group{
+    width:25%;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* 
+#form-wrapper{  
+} */
+
+form{
+    margin:auto auto;
+}
+
+body{
+    background:url(https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1500);
+    
+}
+
+.btn{
+    border-radius: none;
+    width:200px;
+}
+
